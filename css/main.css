@@ -100,11 +100,15 @@ textarea {
 
 body {
   background: #ffe9cf;
-  font-size:1.2em;
+  font-size:1rem;
 }
+
+.container {
+  width:80%;
+}
+
 header {
   text-align: center;
-  width:60%;
   border-bottom:1px solid #666;
   box-shadow:0 1px 0 #fff;
   margin:1.25em auto;
@@ -127,7 +131,6 @@ header h1 {
 }
 
 nav {
-  width:60%;
   margin:0 auto;
   display:grid;
   grid-template-columns: repeat(3, 1fr);
@@ -142,7 +145,6 @@ nav div {
 } */
 
 section#content {
-  width: 60%;
   margin:2.5em auto;
 }
 
@@ -246,6 +248,12 @@ section#content article {
    ========================================================================== */
 
 @media only screen and (min-width: 60em) {
+  body {
+    font-size:1.2rem;
+  }
+  .container {
+    width:60%;
+  }
   /* Style adjustments for viewports that meet the condition */
   .article-container {
     display:grid;
