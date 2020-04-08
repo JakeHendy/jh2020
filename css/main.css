@@ -126,6 +126,8 @@ header h1 {
   font-family: bodoni-urw, serif;
 }
 
+
+
 .serif {
   font-family: adobe-text-pro, serif;
 }
@@ -153,9 +155,26 @@ section#content h2, section#content h3 {
   border-bottom: 1px solid #999;
   width:auto;
   display: inline-block;
+
+  transition:border-bottom 0.2s ease-in-out;
 }
 section#content article {
   border-bottom:1px solid #666;
+}
+
+h3 a {
+  color: #326df5;
+  text-decoration:none;
+  transition:color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+section#content h3:hover {
+  border-bottom: 1px solid#4279f6;
+}
+h3 a:hover {
+  background-color: #4279f6;
+  color: #fff;
+  text-decoration-color: #4279f6;
+  text-decoration: none;
 }
 
 /* ==========================================================================
@@ -258,7 +277,7 @@ section#content article {
   .article-container {
     display:grid;
     grid-template-columns: repeat(2 , 1fr);
-    grid-gap:1em;
+    grid-gap:2em;
   }
 }
 
