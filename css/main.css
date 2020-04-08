@@ -135,13 +135,13 @@ header h1 {
 
 nav {
   margin:0 auto;
-  display:grid;
-  grid-template-columns: repeat(3, 1fr);
+  display:flex;
 }
 
 nav div {  
   text-align: center;
   font-weight: bold;
+  padding:1em;
 }
 /* nav div::nth-child(1) {
   grid-column: 1;
