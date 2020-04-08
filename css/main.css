@@ -108,11 +108,13 @@ body {
   width:80%;
 }
 
+span.ampersand {
+  font-style:italic;
+}
+
 header {
   text-align: center;
-  border-bottom:1px solid #666;
-  box-shadow:0 1px 0 #fff;
-  margin:1.25em auto;
+  margin:2.5em auto;
 }
 header h1 {
   text-transform: uppercase;
@@ -139,16 +141,21 @@ nav {
 }
 
 nav div {  
-  text-align: center;
   font-weight: bold;
-  padding:1em;
+  padding-right:1em;
 }
 /* nav div::nth-child(1) {
   grid-column: 1;
 } */
 
-section#content {
+section#intro, section#content {
   margin:2.5em auto;
+}
+section#intro h2 {
+  font-size:2rem
+}
+section#intro {
+  border-bottom:1px solid #999;
 }
 
 section#content h2, section#content h3 {
