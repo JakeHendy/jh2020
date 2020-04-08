@@ -100,6 +100,7 @@ textarea {
 
 body {
   background: #ffe9cf;
+  color: #111;
   font-size:1rem;
 }
 
@@ -163,17 +164,18 @@ section#content article {
 }
 
 h3 a {
-  color: #326df5;
+  padding:0.1em 0.2em;
+  color: #111;
   text-decoration:none;
   transition:color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 section#content h3:hover {
-  border-bottom: 1px solid#4279f6;
+  border-bottom: 1px solid #999;
 }
 h3 a:hover {
-  background-color: #4279f6;
+  background-color: #999;
   color: #fff;
-  text-decoration-color: #4279f6;
+  text-decoration-color: #999;
   text-decoration: none;
 }
 
