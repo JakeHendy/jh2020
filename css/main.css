@@ -170,16 +170,16 @@ section#content article {
   border-bottom:1px solid #666;
 }
 
-h3 a {
+#intro h2 a, h3 a {
   padding:0.1em 0.2em;
   color: #111;
   text-decoration:none;
   transition:color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
-section#content h3:hover {
+#intro h2 a,section#content h3:hover {
   border-bottom: 1px solid #999;
 }
-h3 a:hover {
+#intro h2 a:hover,h3 a:hover {
   background-color: #999;
   color: #fff;
   text-decoration-color: #999;
