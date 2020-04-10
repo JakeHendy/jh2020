@@ -99,7 +99,9 @@ textarea {
    ========================================================================== */
 
 body {
-  background: #ffe9cf;
+  /* background: #ffe9cf; */
+  background: #ffe1be;
+  
   color: #111;
   font-size:1rem;
 }
@@ -129,7 +131,10 @@ header h1 {
   font-family: bodoni-urw, serif;
 }
 
-
+.doubleborder {
+  border-bottom:1px solid #aaa;
+  box-shadow:0 1px 0 #fff;
+}
 
 .serif {
   font-family: adobe-text-pro, serif;
@@ -137,6 +142,7 @@ header h1 {
 
 nav {
   margin:0 auto;
+  padding:0 0 1em;
   display:flex;
 }
 
@@ -154,9 +160,9 @@ section#intro, section#content {
 section#intro h2 {
   font-size:2rem
 }
-section#intro {
+/* section#intro {
   border-bottom:1px solid #999;
-}
+} */
 
 section#content h2, section#content h3 {
   font-weight:400;
@@ -291,6 +297,7 @@ section#content article {
 
   section#content article {
     border:1px solid rgba(130,130,130,0.25);
+    border-radius: 2px;
     padding:0.5em 1em;
   }
 }
